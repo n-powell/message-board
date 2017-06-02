@@ -1,3 +1,30 @@
+## Planning
+
+1. Configuration/dependencies
+  * Ember 2.13.2.
+  * node 7.10.0
+
+2. Specs
+  * Spec 1: User can ask a question on the main page, How should I plan this?, Question is added to site.
+  * Spec 2: User leaves an answer, I recommend planning it this way.., Answer is added to question response area.
+
+3. Integration
+  * Initial routes or index pages with all dependencies in Controller/index.html head
+  * About page for site description.
+  * Index page for questions.
+  * Question page to view responses.
+
+4. UX/UI
+  * Include and modify bootstrap/materialize/Sass etc.
+  * Develop custom style
+
+5. Polish
+  * Refactor minor portion of...
+  * Delete unused...
+  * Make README awesome
+
+
+
 # message-board
 
 This README outlines the details of collaborating on this Ember application.
