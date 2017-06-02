@@ -8,6 +8,6 @@ User {{question.user}}, would like to know about {{question.title}}; {{question.
 
 <ul>
   {{#each question.comments as |comment|}}
-    {{comment-tile comment=comment}}
+    {{comment-tile comment=comment destroyComment="destroyComment"}}
   {{/each}}
 </ul>
