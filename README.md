@@ -27,8 +27,7 @@
 
 # message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a quick ember site based off of a message board style format. Users can input a user name, topic, and question on the main page. Other users can then check out those questions and make comments/answers. CRUD functionality for questions and model relationships.
 
 ## Prerequisites
 
@@ -66,7 +65,11 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* clone
+* enter folder
+* install npm
+* install bower
+* localhost:4200
 
 ## Further Reading / Useful Links
 
