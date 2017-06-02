@@ -8,4 +8,14 @@
     </ul>
   </div>
 </nav>
-{{outlet}}
+
+<div class= "container">
+  <header class= "jumbotron">
+    <h1>Dev message board</h1>
+  </header>
+    {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'about'}}Learn about the message-board{{/link-to}}
+  </footer>
+</div>
