@@ -9,13 +9,3 @@
 </ul>
 
 {{new-question saveQuestion="saveQuestion"}}
-
-<h2> All Comments </h2>
-
-<ul>
-  {{#each model.comments as |comment|}}
-    <li>{{comment.body}} - by {{comment.user}}</li>
-  {{/each}}
-</ul>
-
-{{new-comment saveComment="saveComment"}}

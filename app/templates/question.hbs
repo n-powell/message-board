@@ -1,4 +1,7 @@
-<h2>More information about {{model.user}}'s question</h2>
+<h2>{{model.user}}'s question</h2>
+
 {{update-question question=model update="update"}}
 
 {{question-detail question=model destroyQuestion="destroyQuestion"}}
+
+{{new-comment saveComment="saveComment" question=model}}
