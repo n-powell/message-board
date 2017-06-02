@@ -10,4 +10,12 @@
 
 {{new-question saveQuestion="saveQuestion"}}
 
-{{#link-to 'about'}}About{{/link-to}}
+<h2> All Comments </h2>
+
+<ul>
+  {{#each model.comments as |comment|}}
+    <li>{{comment.body}} - by {{comment.user}}</li>
+  {{/each}}
+</ul>
+
+{{new-comment saveComment="saveComment"}}

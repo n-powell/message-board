@@ -13,5 +13,13 @@
     "title": "Hello",
     "body": "So whats the weather like right now?"
 
+  }],
+
+  "comments": [{
+    "user": "Zap",
+    "body": "I would recommend something else"
+  }, {
+    "user": "Leela",
+    "body": "I think youre right."
   }]
 }
