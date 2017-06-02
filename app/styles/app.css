@@ -1,0 +1,32 @@
+.jumbotron {
+  text-align: center;
+  background: #669999;
+}
+
+.navbar {
+  background: #D46A6A;
+  color: white;
+}
+
+.questions {
+  text-align: center;
+  width: 100%;
+}
+
+.main-tile {
+    text-align: center;
+    background: #D4B16A;
+}
+
+body {
+  background: #FFE3AA;
+}
+
+.well {
+  background: #FFE3AA;
+  font-size: 20px;
+}
+
+.container {
+  font-size: 16px;
+}

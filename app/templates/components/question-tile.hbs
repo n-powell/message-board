@@ -1,4 +1,4 @@
-<li>
-  {{#link-to 'question' question.id}}{{question.user}}'s asks -- {{question.body}} {{/link-to}}
-</li>
-<br>
+<div class="container questions">
+  {{#link-to 'question' question.id}}<strong>{{question.body}}</strong> <em>asked by {{question.user}}</em>{{/link-to}}
+  <br>
+</div>

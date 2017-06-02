@@ -1,5 +1,6 @@
-<li>
-  {{comment.body}} by {{comment.user}}
-</li>
-
-<button {{action 'delete' comment}}>Delete Comment</button>
+<br>
+<div class="well">
+    {{comment.body}} by <strong>{{comment.user}}</strong>
+</div>
+<button class="btn btn-danger btn-sm" {{action 'delete' comment}}>Delete</button>
+<br>

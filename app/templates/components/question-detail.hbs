@@ -1,4 +1,3 @@
-<button {{action 'delete' question}}>Delete</button>
 <hr>
 User {{question.user}}, would like to know about {{question.title}}; {{question.body}}
 <br>
@@ -6,8 +5,8 @@ User {{question.user}}, would like to know about {{question.title}}; {{question.
 
 <h3>Comments</h3>
 
-<ul>
   {{#each question.comments as |comment|}}
     {{comment-tile comment=comment destroyComment="destroyComment"}}
   {{/each}}
-</ul>
+
+<br>
