@@ -1,0 +1,17 @@
+{ "questions": [{
+    "user": "Alex",
+    "title": "Quick question",
+    "body": "So whats the deal?"
+
+  }, {
+    "user": "Tyler",
+    "title": "Cool question",
+    "body": "So whats up?"
+
+  }, {
+    "user": "Alexis",
+    "title": "Hello",
+    "body": "So whats the weather like right now?"
+
+  }]
+}

@@ -2,4 +2,10 @@
 
 <p>View and ask questions here.</p>
 
+<ul>
+  {{#each model as |question|}}
+     {{question-tile question=question}}
+  {{/each}}
+</ul>
+
 {{#link-to 'about'}}About{{/link-to}}
